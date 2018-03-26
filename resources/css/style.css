@@ -133,3 +133,11 @@ p {
 .cameraman.image-content {
   background-image: url('../../resources/images/cameraman.png');
 }
+
+.column.medium {
+  width: 300px;
+}
+
+.catceo-image.image-content {
+  background-image: url('../../resources/images/catceo.png');
+}

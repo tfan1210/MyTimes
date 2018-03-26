@@ -73,19 +73,6 @@ div {
   block;
 }
 
-.image-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 300px;
-  margin-top: 15px;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
-}
-
 .lead-story .image-content {
   background-image: url('../../resources/images/mainstory.png');
   width: 630px;
@@ -108,4 +95,37 @@ p {
 
 .narrative {
   margin-top: 16px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.stories .text-content {
+  height: 250px;
+}
+
+.fallseason.image-content {
+  background-image: url('../../resources/images/fallseason.png');
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
